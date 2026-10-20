@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib
+		(name "schemagic")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/schemagic.kicad_sym")
+		(options "")
+		(descr "Datasheet-matched symbols from schemagic")
+	)
+)
