@@ -22,7 +22,8 @@ Software Scaling: Applies a digital multiplier to map the filtered biological si
 
 # Repository structure
 *   `Firmware/` — ESP32 C++ code for digital signal processing.
-        *   `ESP32Code.ino` — Core EMA filtering and multi-channel serial plotting code.
+    *   `EMG_DSP_Filter/` — Arduino IDE project folder.
+        *   `EMG_DSP_Filter.ino` — Core EMA filtering and multi-channel serial plotting code.
 *   `Hardware/` — KiCad 8.0 project files and custom footprints.
     *   `Libraries/` — Project-specific dependencies.
         *   `EMG2_Stuff.pretty/` — Custom footprint library (INA630, MAX660, audio jacks).
