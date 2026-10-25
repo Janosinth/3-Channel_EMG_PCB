@@ -23,15 +23,13 @@ Software Scaling: Applies a digital multiplier to map the filtered biological si
 # Repository structure
 *   `Firmware/` — ESP32 C++ code for digital signal processing.
     *   `ESP32_Code.ino` — Arduino IDE project folder.
-*   `Hardware/` — KiCad 8.0 project files and custom footprints.
-    *   `Libraries/` — Project-specific dependencies.
-        *   `EMG2_Stuff.pretty/` — Custom footprint library (INA630, MAX660, audio jacks).
-    *   `EMG_Mainboard.kicad_sch` — KiCad Schematic.
-    *   `EMG_Mainboard.kicad_pcb` — KiCad PCB Layout.
-    *   `EMG_Mainboard.kicad_pro` — KiCad Project File.
+*   `Hardware/` — KiCad 10.0 project files and custom footprints.
+    *   `Kicad_Files` — All main KiCad files to open the project
+    *   `CustomLibraries/` — Project-specific dependencies (Custom footprint library (INA630, MAX660, audio jacks)
 *   `Simulations/` — Analog circuit verification.
-    *   `Transient_Analysis.ms14` — Multisim active filter and precision rectifier simulation files.
-*   `Assets/` — Media and visual documentation.
-    *   `Schematic_Overview.pdf` — High-res export of the circuit design.
-    *   `PCB_Layout.png` — Top/Bottom routing view.
-    *   `plotter_test.gif` — Hardware demonstration media.
+    *   `EMG_Circuit_Simulation.ms14` — Multisim active filter and precision rectifier simulation files.
+*   `Video and Image Assets/` — Media and visual documentation.
+    *   `KiCad PCB schematic.png` — PCB schematic inside KiCad 
+    *   `Bare PCB.png` — Bare manufactured PCB with no soldered components.
+    *   `Full PCB Top Down View` — Top-down view of fully assembled PCB.
+    *   `3D Render.gif` — 3D render of PCB in KiCad
