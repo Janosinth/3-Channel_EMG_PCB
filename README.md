@@ -9,7 +9,7 @@ Bio-Amplification: An INA630 instrumentation amplifier interfaces directly with 
 
 Active Precision Rectification: A TLV9354 operational amplifier drives a full active precision wave rectifier. This mathematically eliminates the forward voltage drop typical of passive Schottky diode envelopes, ensuring extremely weak muscle signals are not lost.
 
-Total System Gain: Fixed hardware gain of ~1729x designed to pull isolated bio-signals out of the noise floor before hitting the ADC.
+Total System Gain: Fixed hardware gain of ~600x designed to pull isolated bio-signals out of the noise floor before hitting the ADC.
 
 Form Factor: Heavily utilizes 0805 surface-mount technology (SMT) to minimize footprint and reduce parasitic trace inductance.
 
