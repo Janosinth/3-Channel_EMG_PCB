@@ -13,7 +13,7 @@ Total System Gain: Fixed hardware gain of ~1729x designed to pull isolated bio-s
 
 Form Factor: Heavily utilizes 0805 surface-mount technology (SMT) to minimize footprint and reduce parasitic trace inductance.
 
-# 2. Digital Signal Processing (Firmware)
+## 2. Digital Signal Processing (Firmware)
 Microcontroller: ESP32 operating with a 12-bit ADC configured to ADC_0db (0V - 1.1V range) for maximum microvolt resolution.
 
 Filtering: A real-time C++ Exponential Moving Average (EMA) algorithm processes the raw rectified wave at ~500 Hz.
