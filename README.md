@@ -20,19 +20,18 @@ Filtering: A real-time C++ Exponential Moving Average (EMA) algorithm processes 
 
 Software Scaling: Applies a digital multiplier to map the filtered biological signal to a constrained 0-3.3V logic output for external interfacing or data logging.
 
-# Repository Structure
-├── Firmware/
-│   └── EMG_DSP_Filter/
-│       └── EMG_DSP_Filter.ino         # ESP32 EMA filtering and multi-channel serial plotting code
-├── Hardware/
-│   ├── Libraries/
-│   │   └── EMG2_Stuff.pretty/         # Custom footprint library (INA630, MAX660, audio jacks)
-│   ├── EMG_Mainboard.kicad_sch        # KiCad Schematic
-│   ├── EMG_Mainboard.kicad_pcb        # KiCad PCB Layout
-│   └── EMG_Mainboard.kicad_pro        # KiCad Project File
-├── Simulations/
-│   └── Transient_Analysis.ms14        # Multisim active filter and rectifier simulation files
-└── Assets/
-    ├── Schematic_Overview.pdf         # High-res export of the circuit design
-    ├── PCB_Layout.png                 # Top/Bottom routing view
-    └── plotter_test.gif               # Hardware demonstration media
+# Repository structure
+*   `Firmware/` — ESP32 C++ code for digital signal processing.
+        *   `ESP32Code.ino` — Core EMA filtering and multi-channel serial plotting code.
+*   `Hardware/` — KiCad 8.0 project files and custom footprints.
+    *   `Libraries/` — Project-specific dependencies.
+        *   `EMG2_Stuff.pretty/` — Custom footprint library (INA630, MAX660, audio jacks).
+    *   `EMG_Mainboard.kicad_sch` — KiCad Schematic.
+    *   `EMG_Mainboard.kicad_pcb` — KiCad PCB Layout.
+    *   `EMG_Mainboard.kicad_pro` — KiCad Project File.
+*   `Simulations/` — Analog circuit verification.
+    *   `Transient_Analysis.ms14` — Multisim active filter and precision rectifier simulation files.
+*   `Assets/` — Media and visual documentation.
+    *   `Schematic_Overview.pdf` — High-res export of the circuit design.
+    *   `PCB_Layout.png` — Top/Bottom routing view.
+    *   `plotter_test.gif` — Hardware demonstration media.
