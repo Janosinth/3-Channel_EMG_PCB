@@ -37,3 +37,20 @@ Software Scaling: Applies a digital multiplier to map the filtered biological si
     *   `Full PCB Top Down View.jpg` — Top-down view of fully assembled PCB.
     *   `3D Render.png` — 3D render of the PCB in KiCad
     *   `Demo Video.gif` — GIF of a portion of the demo video 
+
+# Setup & Installation
+Firmware Deployment:
+
+Clone this repository: git clone https://github.com/YourUsername/EMG_Acquisition_Board.git
+
+Open Firmware/EMG_DSP_Filter/EMG_DSP_Filter.ino in the Arduino IDE.
+
+Select the ESP32 Dev Module board and compile/upload.
+
+Hardware Viewing:
+
+Install KiCad 8.0+.
+
+Open Hardware/EMG_Mainboard.kicad_pro.
+
+Note: Ensure the Libraries/EMG2_Stuff.pretty footprint directory is properly linked in your KiCad Footprint Library configuration to prevent "missing footprint" errors when viewing the PCB layout.
