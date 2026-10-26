@@ -39,7 +39,7 @@ Software Scaling: Applies a digital multiplier to map the filtered biological si
     *   `Demo Video.gif` — GIF of a portion of the demo video 
 
 # Setup & Installation
-Firmware Deployment:
+## Firmware Deployment:
 
 Clone this repository: git clone https://github.com/YourUsername/EMG_Acquisition_Board.git
 
