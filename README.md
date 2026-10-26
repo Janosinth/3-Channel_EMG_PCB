@@ -28,7 +28,8 @@ Software Scaling: Applies a digital multiplier to map the filtered biological si
     *   `ESP32_Code.ino` — Arduino IDE project folder.
 *   `Hardware/` — KiCad 10.0 project files and custom footprints.
     *   `Kicad_Files` — All main KiCad files to open the project
-    *   `CustomLibraries/` — Project-specific dependencies (Custom footprint library (INA630, MAX660, audio jacks)
+    *   `EMG2_Stuff.pretty/` — Project-specific dependencies (Custom footprint library (INA630, MAX660, audio jacks)
+    *   `Gerbers/` — Prerendered Gerber files from KiCad files ready for use with JLCPCB manufacturing tolerances. 
 *   `Simulations/` — Analog circuit verification.
     *   `EMG_Circuit_Simulation.ms14` — Multisim active filter and precision rectifier simulation files.
 *   `Video and Image Assets/` — Media and visual documentation.
@@ -50,6 +51,6 @@ Hardware Viewing:
 
 1. Install KiCad 9.0+.
 
-2. Open the Hardware/EMG2.kicad_pro file using KiCad. 
+2. Open the Hardware/EMG2.kicad_pro file using KiCad, ensuring that the EMG2_Stuff.pretty EMG2.kicad_pro file is under the Hardware file directory. 
 
 Note: Ensure the Libraries/EMG2_Stuff.pretty footprint directory is properly linked in your KiCad Footprint Library configuration to prevent "missing footprint" errors when viewing the PCB layout.
