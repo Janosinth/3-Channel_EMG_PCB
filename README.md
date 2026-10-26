@@ -39,18 +39,17 @@ Software Scaling: Applies a digital multiplier to map the filtered biological si
     *   `Demo Video.gif` — GIF of a portion of the demo video 
 
 # Setup & Installation
-## Firmware Deployment:
+Firmware Deployment:
+1. Clone this repository
 
-Clone this repository: git clone https://github.com/YourUsername/EMG_Acquisition_Board.git
+2. Open Firmware/ESP32_Code.ino in the Arduino IDE.
 
-Open Firmware/EMG_DSP_Filter/EMG_DSP_Filter.ino in the Arduino IDE.
-
-Select the ESP32 Dev Module board and compile/upload.
+3. Select the ESP32 Dev Module board and compile/upload. 
 
 Hardware Viewing:
 
-Install KiCad 8.0+.
+1. Install KiCad 9.0+.
 
-Open Hardware/EMG_Mainboard.kicad_pro.
+2. Open the Hardware/EMG2.kicad_pro file using KiCad. 
 
 Note: Ensure the Libraries/EMG2_Stuff.pretty footprint directory is properly linked in your KiCad Footprint Library configuration to prevent "missing footprint" errors when viewing the PCB layout.
