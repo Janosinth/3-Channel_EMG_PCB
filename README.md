@@ -1,6 +1,8 @@
 # 3-Channel_EMG_PCB
 A forearm-focused EMG sensor with 3 channels. Useful for identifying finger or general forearm muscle movements. 
 
+![Working EMG PCB Demonstration](Video and Image Assets/Demo Video.gif)
+
 # System Architecture
 
 The design bridges a high-gain, low-noise analog front-end with real-time embedded C++ digital signal processing.
