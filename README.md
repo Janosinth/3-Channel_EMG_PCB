@@ -10,7 +10,7 @@ A forearm-focused EMG sensor with 3 channels. Useful for identifying finger or g
 
 Fully Populated PCB
 
-<img src="Video%20and%20Image%20Assets/Full%20PCB%20Top%20Down%20View.png" alt="Working EMG PCB Demonstration" width="600">
+<img src="Video%20and%20Image%20Assets/Full%20PCB%20Top%20Down%20View.jpg" alt="Working EMG PCB Demonstration" width="600">
 
 # System Architecture
 
