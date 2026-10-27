@@ -8,6 +8,10 @@ A forearm-focused EMG sensor with 3 channels. Useful for identifying finger or g
 
 <img src="Video%20and%20Image%20Assets/3D%20Render.png" alt="Working EMG PCB Demonstration" width="600">
 
+Fully Populated PCB
+
+<img src="Video%20and%20Image%20Assets/Full%20PCB%20Top%20Down%20View.png" alt="Working EMG PCB Demonstration" width="600">
+
 # System Architecture
 
 The design bridges a high-gain, low-noise analog front-end with real-time embedded C++ digital signal processing.
