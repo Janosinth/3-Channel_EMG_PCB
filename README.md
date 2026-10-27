@@ -10,7 +10,7 @@ The design bridges a high-gain, low-noise analog front-end with real-time embedd
 # 1. Analog Front-End (Hardware)
 Bio-Amplification: An INA630 instrumentation amplifier interfaces directly with surface electrodes to capture raw muscle action potentials.
 
-Bandpass Filter: Using a TLV9354 operational amplifier, the circuit drives 3 (1 per channel) active bandpass filters with a bandpass of 20 - 420Hz. The bandpass is a combination of a 2nd-order high-pass filter and a first-order low-pass filter. 
+Bandpass Filter: Using a TLV9354 operational amplifier, the circuit drives 3 (1 per channel) active bandpass filters with a bandpass of 20 - 500Hz. The bandpass is a combination of a 2nd-order high-pass filter and a first-order low-pass filter. 
 
 Active Precision Rectification: The TLV9354 operational amplifier also drives a full active precision wave rectifier. This mathematically eliminates the forward voltage drop typical of passive Schottky diode envelopes, ensuring extremely weak muscle signals are not lost.
 
